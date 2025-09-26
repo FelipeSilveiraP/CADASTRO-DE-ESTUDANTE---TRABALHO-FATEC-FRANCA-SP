@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title> Cadastro de Alunos </title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+  <section class="container">
+    <h1><i>CADASTRO ALUNOS FATEC </i></h1>
+    <p>Preencha os dados do aluno e clique em "Cadastrar".</p>
+
+    <!-- =============== CADASTRO ====================================================== -->
+    <form id="formulario" autocomplete="off" method="get">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome_HTML" required>
+
+      <label for="ra">RA (apenas números)</label>
+      <input type="number" id="ra_HTML" required>
+
+      <label for="idade">Idade</label>
+      <input type="number" id="idade_HTML" min="0" required>
+
+      <label for="sexo">Sexo</label>
+      <select id="sexo_HTML" required>
+        <option value="">-- selecione --</option>
+        <option value="M">Masculino</option>
+        <option value="F">Feminino</option>
+        <option value="O">Outro</option>
+      </select>
+
+      <label for="media">Média (0.00 - 10.00)</label>
+      <input type="number" id="media_HTML" step="0.01" min="0" max="10" required>
+
+      <button id="botao-cadastrar_HTML" type="submit" >Cadastrar</button>
+    </form>
+
+    <!-- =============== FILTROS ====================================================== -->
+
+    <h2 style="margin-top:30px;"> Filtros </h2>
+
+    <div class="filtros">
+      <button id="nomes_crescente_HTML" type="button">Nomes (Crescente)</button>
+      <button id="ra_decrescente_HTML" type="button">RA (Decrescente)</button>
+      <button id="aprovados_crescente_HTML" type="button">Aprovados (Crescente)</button>
+    </div>
+
+
+    <!-- =============== RELATÓRIO ====================================================== -->
+    <div id="RELATORIO_HTML" style="margin-top:20px; overflow:auto;"></div>
+  </section>
+
+  <script src="./assets/js/trabalho.js"></script>
+</body>
+
+</html>
+

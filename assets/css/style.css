@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button, form select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input, form select {
+  font-size: 18px;
+  height: 44px;
+  padding: 0 12px;
+}
+
+form input:focus, form select:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  height: 44px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+  transform: scale(1.05);
+}
+
+
+.filtros {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.filtros button {
+  border: none;
+  background: #2c3e50;
+  color: white;
+  padding: 14px 24px;
+  cursor: pointer;
+  border-radius: 50px; /* deixa oval/circular */
+  font-size: 15px;
+  transition: all 0.25s ease-in-out;
+}
+
+.filtros button:hover {
+  background: #1a252f;
+  transform: scale(1.1);
+}
+
+/* ======================== ESTILO DA TABELA SIMPLES ======================== */
+
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Estilo para as células e cabeçalhos */
+.container table th, 
+.container table td {
+  border: 1px solid #ddd; /* Adiciona uma borda simples a todas as células */
+  padding: 8px; /* Espaço interno para o texto */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo do cabeçalho da tabela */
+.container table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
