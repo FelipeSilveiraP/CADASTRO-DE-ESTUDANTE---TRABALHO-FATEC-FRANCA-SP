@@ -39,8 +39,7 @@ A documentação completa do projeto (relatório acadêmico em PDF) está dispon
 
 ## 📌 Autores
 - **Felipe Silveira Pessoa** – [felipe.silveirap47@gmail.com](mailto:felipe.silveirap47@gmail.com)  
-- **Israel Fonseca Pessoni** – [israel.pessoni20@gmail.com](mailto:israel.pessoni20@gmail.com) ; 
-- Github:[25-israel](https://github.com/25-israel)
+- **Israel Fonseca Pessoni** – [israel.pessoni20@gmail.com](mailto:israel.pessoni20@gmail.com) ; Github:[25-israel](https://github.com/25-israel)
 
 ---
 
