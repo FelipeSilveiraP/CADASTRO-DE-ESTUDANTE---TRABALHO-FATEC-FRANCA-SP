@@ -33,7 +33,7 @@ O sistema permite o **cadastro de estudantes** e a **ordenação dos registros**
 
 ## 📄 Documentação
 A documentação completa do projeto (relatório acadêmico em PDF) está disponível no repositório em:  
-[📕 Documentação do Projeto](./docs/documentacao.pdf)
+[📕 Documentação do Projeto](./docs/DOCUMENTACAO_CADASTRO_ALUNOS_FELIPE_ISRAEL.pdf)
 
 ---
 
